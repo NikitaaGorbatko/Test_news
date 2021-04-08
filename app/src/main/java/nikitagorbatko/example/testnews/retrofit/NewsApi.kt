@@ -11,7 +11,7 @@ interface NewsApi {
     fun getNews(
         @Query("apiKey") apiKey: String,
         @Query("q") q: String = "sports",
-        @Query("pageSize") pageSize: Int = 10,
+        @Query("pageSize") pageSize: Int = 100,
         @Query("page") page: Int
     ): Call<NewsResponse>
 }
