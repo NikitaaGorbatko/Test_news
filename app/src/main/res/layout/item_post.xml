@@ -30,7 +30,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/image"
         app:layout_constraintTop_toTopOf="@+id/image"
-        tools:text="Заголовок" />
+        tools:text="@tools:sample/lorem" />
 
     <TextView
         android:id="@+id/text_description"

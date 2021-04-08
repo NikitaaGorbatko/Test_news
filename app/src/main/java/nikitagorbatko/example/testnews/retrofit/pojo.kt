@@ -1,6 +1,6 @@
-package nikitagorbatko.example.testnews
+package nikitagorbatko.example.testnews.retrofit
 
-data class Response(
+data class NewsResponse(
     val status: String,
     val code: String? = null,
     val message: String? = null,
